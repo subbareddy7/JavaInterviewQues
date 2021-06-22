@@ -4,14 +4,15 @@ import java.util.Scanner;
 
 public class ReverseIntegger {
 
-	static long ReverseInt;
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		long ReverseInt = 0;
 	    Scanner S=new Scanner(System.in);
 		System.out.print("Enter an Integer :");
 		long value=S.nextInt();
 		while(value!=0) {
-			ReverseIntegger.ReverseInt=ReverseIntegger.ReverseInt*10+value%10;
+			ReverseInt=ReverseInt*10+value%10;
 			value=value/10;
 			
 		}
