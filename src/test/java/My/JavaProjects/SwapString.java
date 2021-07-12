@@ -19,6 +19,10 @@ public class SwapString {
 		System.out.println("Before Swap of A:"+a);
 		System.out.println("Before Swap of B:"+b);
 		
+		c="SubbaReddyy";
+		System.out.println(c.substring(5));
+		
+		
 	}
 
 }
