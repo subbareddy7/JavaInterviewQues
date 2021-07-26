@@ -25,7 +25,7 @@ public class CompareSubstingsInStringArray {
 			}
 	}
 		//validating a Charter in the given stings
-		for(int i=0;i<=s.length();i++) {
+		for(int i=0;i<=s.length()-1;i++) {
 		    if((i!=s.length())&& s.charAt(i)==s.charAt(i+1)){
 			System.out.println("Chareter duplicated:"+s.charAt(i));
 			
