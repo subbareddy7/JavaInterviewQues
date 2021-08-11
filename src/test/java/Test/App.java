@@ -22,7 +22,7 @@ public class App {
 
 	public void openUrl(String username, String Pswd) {
 
-		driver.get("https://"+username+":"+Pswd+"@"+"sc-dev-web-aws.anthem.com/prweb/PRRestService/api/v1/data/D_UpdateEndPointURL/?ENDPointURL=&ENDPointPurpose=/");
+		driver.get("https://"+username+":"+Pswd+"@"+"sc-dev-web-aws.anthem.com/prweb/PRRestService/api/v1/data/D_UpdateEndPointURL/?ENDPointURL=www.legatohealth.com&ENDPointPurpose=TestURL");
 		//https://AG82801:rules@sc-dev-web-aws.anthem.com/prweb/PRRestService/api/v1/data/D_UpdateEndPointURL/?ENDPointURL=&ENDPointPurpose=
 		driver.manage().window().maximize();	
 		String Response=driver.findElement(By.xpath("//body")).getText();
